@@ -1,0 +1,22 @@
+{
+  "name": "ejemplo1",
+  "version": "1.0.0",
+  "description": "``` brew install podman podman machine init sudo /opt/podman/bin/podman-mac-helper install podman machine stop podman machine start ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
